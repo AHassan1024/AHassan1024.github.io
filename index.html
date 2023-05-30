@@ -1,7 +1,221 @@
-<!-- #######  Index page #########-->
-<h1 style="text-align: center;"><span style="color: #333333;">Ameena Hassan</span></h1>
-<p style="text-align: center;"><span style="color: #333333;">Developer. Engineer. Mathematician.</span></p>
-<h2 style="color: #2e6c80; text-align: center;">About<br />My work<br />Volunteering<br />CV<br />Contact</h2>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <title>Hi! I'm Ameena.</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+    }
+
+    header {
+      background-color: #F3DEBC;
+      color: #000;
+      padding: 20px;
+      text-align: center;
+      flex: 1;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      flex: 3;
+    }
+
+    .sidebar {
+      flex: 1;
+      background-color: #BDFCEF;
+      padding: 20px;
+    }
+
+    h1 {
+      margin-top: 0;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    /* .project {
+      margin-bottom: 20px;
+    } */
+
+    .project h3 {
+      margin-top: 0;
+    }
+
+    .skills {
+      margin-top: 5px;
+    }
+
+    .skills h2 {
+      margin-bottom: 10px;
+    }
+
+    .skills ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .skills li {
+      margin-bottom: 5px;
+    }
+
+    .content {
+      background-color: #FCBDCE;
+      color: #000000;
+      padding: 20px;
+    }
+
+    .projects {
+      background-color: #E1F2B6;
+      color: #000;
+      padding: 20px;
+    }
+
+    .contact {
+      background-color: #BBB8E6;
+      color: #000;
+      padding: 20px;
+    }
+
+    .education {
+      background-color: #E4C2F0;
+      color: #000;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Ameena Hassan</h1>
+    <p>Mathematics and Computer Science Graduate</p>
+    <p>London, UK</p>
+    <p>(Willing to relocate)</p>
+    <div class="skills">
+      <h2>Languages:</h2><i><small>(fluent)</small></i>
+      <p>English, Urdu</p>
+      <p>Object-Oriented:</p>
+      <ul>
+        <li>Python</li>
+        <li>Java</li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+
+
+
+      </ul>
+      <p>Databases: </p>
+      <ul>
+        <li>SQL</li>
+      </ul>
+      <!-- TODO: Add more languages and categories -->
+      <ul>
+        <li>HTML</li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="container">
+    <section class="content section">
+      <h2>About Me</h2>
+      <p>Hey there! I'm Ameena, a recent graduate from Imperial College London with a strong background in Mathematics
+        and Computer Science. I'm passionate about leveraging technology to drive efficiency, streamline processes, and
+        deliver exceptional results.</p>
+      <p>During my studies, I developed a solid foundation in problem-solving, analytical thinking, and data analysis,
+        which
+        I believe are crucial skills for both DevOps and Project Management roles. I enjoy applying my mathematical
+        knowledge to optimize systems and algorithms, ensuring smooth operations and effective resource utilization.</p>
+      <p>Throughout my academic journey, I also gained hands-on experience in software development, cloud computing, and
+        automation tools. These skills have equipped me with the ability to bridge the gap between development and
+        operations teams, enabling efficient collaboration and successful project execution.</p>
+      <p>As a highly motivated and detail-oriented individual, I thrive in fast-paced environments where I can leverage
+        my
+        strong organizational and communication skills. I am eager to contribute to dynamic teams, tackle complex
+        challenges, and drive impactful change.</p>
+
+
+    </section>
+
+    <section class="education section">
+      <h2>Education</h2>
+      <p>2:1 BEng in Mathematics and Computer Science </p>
+      <p>Imperial College London</p>
+      <p>Year of Graduation: 2023</p>
+    </section>
+
+    <section class="projects section">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Project 1</h3>
+        <p>Description of Project 1.</p>
+      </div>
+      <div class="project">
+        <h3>Project 2</h3>
+        <p>Description of Project 2.</p>
+      </div>
+      <!-- TODO: Fill out this section -->
+    </section>
+
+    <section class="contact section">
+      <h2>Contact</h2>
+      <p>Email: ameenahassan1024+web@gmail.com</p>
+      <p>Phone: +44 07936 491872</p>
+      <form action="submit.php" method="POST">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <div>
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </section>
+  </div>
+
+  <aside class="sidebar">
+    <div class="skills">
+      <h2>Portfolio: </h2>
+      <ul>
+        <li><img src="imgs/github-mark.svg" alt="GitHub Logo, link to my GitHub" height="20"> GitHub</li>
+        <!-- TODO: Add link to my GitHub -->
+      </ul>
+
+    </div>
+    <div class="skills">
+      <h2>Skills: </h2>
+      <ul>
+        <li><img src="jira_logo.png" alt="Jira Logo" height="20"> Jira</li>
+        <li><img src="aws_logo.png" alt="AWS Logo" height="20"> AWS</li>
+        <li><img src="azure_logo.png" alt="Azure Logo" height="20"> Azure</li>
+        <li><img src="kubernetes_logo.png" alt="Kubernetes Logo" height="20"> Kubernetes</li>
+        <li><img src="aws_logo.png" alt="AWS Logo" height="20"> AWS</li>
+        <li><img src="azure_logo.png" alt="Azure Logo" height="20"> Azure</li>
+        <li><img src="kubernetes_logo.png" alt="Kubernetes Logo" height="20"> Kubernetes</li>
+        <!-- TODO: Provide proper logo files in imgs/.. -->
+      </ul>
+
+    </div>
+  </aside>
+
+
+</body>
+
+</html>
